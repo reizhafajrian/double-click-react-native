@@ -1,6 +1,6 @@
 {
   "name": "double-click-react-native",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "button double click for react-native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/reizhafajrian/double-click",
+  "repository": "https://github.com/reizhafajrian/double-click-react-native",
   "author": "reizha fajrian <reizha77@gmail.com> (https://github.com/reizhafajrian)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reizhafajrian/double-click/issues"
+    "url": "https://github.com/reizhafajrian/double-click-react-native/issues"
   },
-  "homepage": "https://github.com/reizhafajrian/double-click#readme",
+  "homepage": "https://github.com/reizhafajrian/double-click-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

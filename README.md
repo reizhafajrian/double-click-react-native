@@ -1,11 +1,11 @@
-# double-click
+# double-click-react-native
 
 button double click for react-native
 
 ## Installation
 
 ```sh
-npm install double-click
+npm install double-click-react-native
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ function App() {
         console.log('single tap');
       }}
       doubleTap={() => {
-        console.log('single tap');
+        console.log('double tap');
       }}
       delay={300}
       style={{
