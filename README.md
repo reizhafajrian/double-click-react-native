@@ -11,11 +11,34 @@ npm install double-click
 ## Usage
 
 ```js
-import DoubleClick from "double-click";
+
 
 // ...
 
-const result = await DoubleClick.multiply(3, 7);
+import React from 'react'
+import { View, Text } from 'react-native'
+import DoubleClick from "double-click";
+
+
+function App() {
+  return (
+    <DoubleClick
+      singleTap={() => {
+        console.log('single tap');
+      }}
+      doubleTap={() => {
+        console.log('single tap');
+      }}
+      delay={300}
+      style={{
+        backgroundColor: 'black',
+      }}
+    >
+      <Text>Click</Text>
+    </DoubleClick>
+  );
+}
+
 ```
 
 ## Contributing
