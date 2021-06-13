@@ -1,6 +1,6 @@
 {
-  "name": "double-click",
-  "version": "0.1.0",
+  "name": "double-click-react-native",
+  "version": "0.1.2",
   "description": "button double click for react-native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
