@@ -21,7 +21,7 @@ export default function DoubleClick(data: data) {
     lastTime = now;
   };
   const doublePress = (now: number) => {
-    console.log(lastTime);
+
     if (now - lastTime < delayTime) {
       timer && clearTimeout(timer);
       data.doubleTap ? data.doubleTap() : null;

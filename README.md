@@ -17,7 +17,7 @@ npm install double-click-react-native
 
 import React from 'react'
 import { View, Text } from 'react-native'
-import DoubleClick from "double-click";
+import DoubleClick from "double-click-react-native";
 
 
 function App() {

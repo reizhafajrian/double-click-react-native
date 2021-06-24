@@ -1,6 +1,6 @@
 {
   "name": "double-click-react-native",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "button double click for react-native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,7 +34,11 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "double click",
+    "click",
+    "double tap",
+    "button"
   ],
   "repository": "https://github.com/reizhafajrian/double-click-react-native",
   "author": "reizha fajrian <reizha77@gmail.com> (https://github.com/reizhafajrian)",
